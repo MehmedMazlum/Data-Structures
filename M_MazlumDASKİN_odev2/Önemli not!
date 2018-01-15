@@ -1,0 +1,9 @@
+gcc MMazlum_odev2.c -lm -o odev2 şeklinde derleme yapılmalıdır.
+aksi takdirde derleyici
+
+/tmp/ccv0JlsB.o: In function `fark_hesapla':
+MMazlum_odev2.c:(.text+0x973): undefined reference to `pow'
+MMazlum_odev2.c:(.text+0x9b2): undefined reference to `pow'
+MMazlum_odev2.c:(.text+0x9bc): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status
+hatası verecektir.
